@@ -106,6 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libmmcamera_t4k71.so:system/vendor/lib/libmmcamera_t4k71.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
@@ -145,6 +146,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libchromatix_s5k5e2_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_liveshot.so \
     vendor/motorola/victara/proprietary/vendor/lib/libchromatix_s5k5e2_preview.so:system/vendor/lib/libchromatix_s5k5e2_preview.so \
     vendor/motorola/victara/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_snapshot.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_common.so:system/vendor/lib/libchromatix_t4k71_common.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_fhd_30fps.so:system/vendor/lib/libchromatix_t4k71_fhd_30fps.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_fhd_30fps_video.so:system/vendor/lib/libchromatix_t4k71_fhd_30fps_video.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_fhd_60fps.so:system/vendor/lib/libchromatix_t4k71_fhd_60fps.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_hd_30fps.so:system/vendor/lib/libchromatix_t4k71_hd_30fps.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_hd_60fps.so:system/vendor/lib/libchromatix_t4k71_hd_60fps.so \
     vendor/motorola/victara/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/motorola/victara/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/victara/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
@@ -271,15 +278,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/victara/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/victara/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
+    vendor/motorola/victara/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/motorola/victara/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/victara/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/motorola/victara/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/victara/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/motorola/victara/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/motorola/victara/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/victara/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/victara/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/motorola/victara/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/motorola/victara/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/victara/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/victara/proprietary/bin/stm401:system/bin/stm401 \
