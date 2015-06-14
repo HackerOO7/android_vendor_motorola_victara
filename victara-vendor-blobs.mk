@@ -106,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libmmcamera_t4k71.so:system/vendor/lib/libmmcamera_t4k71.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/motorola/victara/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
@@ -146,12 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libchromatix_s5k5e2_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_liveshot.so \
     vendor/motorola/victara/proprietary/vendor/lib/libchromatix_s5k5e2_preview.so:system/vendor/lib/libchromatix_s5k5e2_preview.so \
     vendor/motorola/victara/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_snapshot.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_common.so:system/vendor/lib/libchromatix_t4k71_common.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_fhd_30fps.so:system/vendor/lib/libchromatix_t4k71_fhd_30fps.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_fhd_30fps_video.so:system/vendor/lib/libchromatix_t4k71_fhd_30fps_video.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_fhd_60fps.so:system/vendor/lib/libchromatix_t4k71_fhd_60fps.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_hd_30fps.so:system/vendor/lib/libchromatix_t4k71_hd_30fps.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libchromatix_t4k71_hd_60fps.so:system/vendor/lib/libchromatix_t4k71_hd_60fps.so \
     vendor/motorola/victara/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/motorola/victara/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/victara/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
