@@ -60,10 +60,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/motorola/victara/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/motorola/victara/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/motorola/victara/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/victara/proprietary/lib/libAisAdapter.so:system/lib/libAisAdapter.so \
     vendor/motorola/victara/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/motorola/victara/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
     vendor/motorola/victara/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
+    vendor/motorola/victara/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/victara/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/victara/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/victara/proprietary/lib/libjscore.so:system/lib/libjscore.so \
@@ -72,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/victara/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/victara/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+    vendor/motorola/victara/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/victara/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/victara/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/victara/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
@@ -238,7 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/victara/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/victara/proprietary/bin/mount_ext4.sh:system/bin/mount_ext4.sh \
-    vendor/motorola/victara/proprietary/etc/firmware/BCM20795A0_001.001.023.0003.0022_Generic_I2C_NCD_Unsigned_configdata.ncd:system/etc/firmware/BCM20795A0_001.001.023.0003.0022_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/motorola/victara/proprietary/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/motorola/victara/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/motorola/victara/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
@@ -276,13 +278,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/motorola/victara/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/victara/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/motorola/victara/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/victara/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/motorola/victara/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/victara/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/victara/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/motorola/victara/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/motorola/victara/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/victara/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/victara/proprietary/bin/stm401:system/bin/stm401 \
@@ -293,5 +296,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/lib/hw/sensorhub.msm8974.so:system/lib/hw/sensorhub.msm8974.so \
     vendor/motorola/victara/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/motorola/victara/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/motorola/victara/proprietary/etc/firmware/atmel-a432-14060302-0102aa-victara-p1.tdat:system/etc/firmware/atmel-a432-14060302-0102aa-victara-p1.tdat \
     vendor/motorola/victara/proprietary/etc/firmware/atmel-a432-14102902-0103aa-victara.tdat:system/etc/firmware/atmel-a432-14102902-0103aa-victara.tdat
